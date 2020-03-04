@@ -25,7 +25,7 @@
 
     <%= yield %>
 
-    <%= render "shared/nav" %>
+    <%= render "shared/nav", location: 'top' %>
 
     <%# Check to see from what external site our visitors are coming from. I.E. FB, Twitter %>
     <% if session[:source] %>
