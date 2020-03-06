@@ -23,8 +23,6 @@
     <%= render "shared/nav", location: 'bottom' %>
 
     <%# Check to see from what external site our visitors are coming from. I.E. FB, Twitter %>
-    <% if session[:source] %>
-    <p>Thank you for visiting from: <%= session[:source] %> </p>
-    <% end %>
+      <%= source_helper("blog")%>
   </body>
 </html>
