@@ -57,3 +57,6 @@ gem 'bootstrap', '~> 4.4.1'
 
 # Jquery Rails Gem
 gem 'jquery-rails'
+
+# Gem for Copyright
+gem 'perez_view_tool', git: 'https://github.com/erickeperez/perez_view_tool' 

@@ -16,4 +16,8 @@ module ApplicationHelper
      end 
   end
 
+  def copyright_generator
+    PerezViewTool::Renderer.copyright 'Erick Perez', 'All rights reserved'
+  end
+
 end
